@@ -1,0 +1,50 @@
+
+/* NAV BAR CSS */
+ul li{
+    padding: 20px;
+}
+img{
+    padding-right: 150px;
+}
+.btn-nav{
+   padding:4px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
+    background-color: white;
+    color: #1A153A;
+    margin-left: 30px;
+}
+#btn1:hover{
+background-color: black;
+color:white;
+ transition: 0.5s all;
+}
+#btn1{
+    background-color: white;
+}
+#btn2{
+    background-color:  black;
+    color: white;
+}
+#btn2:hover{
+    background-color:  white;
+    color:black;
+     transition: 0.5s all;
+    }
+    .learnm{
+        background-color:  #1A153A;
+        color: white;
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 5px;
+    }
+.paraqraf{
+    font-size: 20px;
+    color: rgb(124, 124, 124);
+}
+    #nav-bar2{
+
+    }
+    /* NAV BAR CSS END */

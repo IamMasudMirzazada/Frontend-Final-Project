@@ -1,11 +1,14 @@
 
 /* NAV BAR CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 ul li{
     padding: 20px;
 }
-img{
-    padding-right: 150px;
-}
+  
 .btn-nav{
    padding:4px;
     padding-left: 30px;
@@ -36,9 +39,10 @@ color:white;
         background-color:  #1A153A;
         color: white;
         padding: 10px;
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 40px;
+        padding-right: 40px;
         border-radius: 5px;
+        
     }
 .paraqraf{
     font-size: 20px;
@@ -48,3 +52,163 @@ color:white;
 
     }
     /* NAV BAR CSS END */
+
+    .text-left{
+    padding: 150px;
+    }
+    .text-left h2{
+        color: #1E3056;
+        font-family: 'Quicksand', sans-serif;
+    }
+   
+   .fas.fa-cloud{
+       font-size: 25px;
+  
+   }
+   .icon-class{
+       background-color:#F7F6FF ;
+       border-radius: 50%;
+ font-size: 25px;
+  padding: 15px;
+       
+   }
+   .cloud div{
+margin-bottom: 25px;
+   }
+   .cloud p{
+padding-top: 15px;
+line-height: 35px;
+color: #6F8BA4;
+   }
+     .cloud b{
+         color: #3B566E;
+     }
+   .icon-div{
+       padding-left: 20px;
+       padding-top: 30px;
+   }
+   #sec2{
+       background-color:   rgb(250, 249, 249);
+       height: 500px;
+   }
+  
+   .clouds{
+       background-color: white;
+       text-align: center;
+       border-radius: 5px;
+       padding: 15px;
+       transition: 1s all;
+       box-shadow: 5px 5px   #cac7dd;
+   }
+   .clouds:hover{
+       background-color:  #1A153A;
+       transition: 0.5s all;
+   }
+   #sec3{
+       background-color:#f4f8fc  ;
+ 
+       height: 800px;
+   }
+   #sec3 .cld-services p{
+    line-height: 35px;
+       padding-top: 20px;
+       font-size: 20px;
+       color: #6d91b1;
+   }
+   #sec3 .cld-services h2{
+       color: #3B566E;
+   }
+   .cld-services .row .list  div{
+       width: 250px;
+       height: 50px;
+       margin: 40px;
+       border-radius: 5px;
+       background-color:  white;
+      
+   }
+   .cld-services .list div:hover span{
+        background-color:#1A153A ;
+        color: white;
+   }
+   .cld-services-2 img{
+       margin-left: 140px;
+       margin-top: 150px;
+   }
+   #sec4{
+       background-color: #f3f1f1;
+   }
+   #sec4 .cld-services h2{
+    color: #3B566E;
+}
+#sec4 .cld-services p{
+    line-height: 35px;
+       padding-top: 20px;
+       font-size: 20px;
+       color:  #6F8BA4;
+   }
+   #sec4 img{
+       margin-top: 250px;
+   }
+   .our-1{
+       background-color: #1A153A;
+       color: white;
+       text-align: center;
+   }
+   .our-1:hover{
+       height: 100px;
+     transition:1s all;
+   }
+   .our-2 i{
+       color:#1A153A ;
+       padding-left: 20px;
+   }
+   #sec5{
+    background-color: #f3f1f1;
+    height: 600px;
+}
+#sec5  .our-team1{
+    background-color: white;
+    text-align: center;
+     
+}
+#sec5 img{
+    border-radius: 50%;
+
+}
+#sec5-text p{
+    padding-top: 20px;
+    color: #6F8BA4;
+}
+#sec5  .our-team1{
+    border-radius: 8px;
+}
+ #sec5 h3{
+     color: #3B566E;
+     
+ }
+ #sec5 p{
+     color: #6F8BA4;
+ }
+     
+ #sec6{
+     height: 600px;
+     background-color:  yellow;
+ }
+ .sec6-text{
+     text-align: center;
+ }
+ .sec6-text{
+     font-size: 20px;
+ }
+ .sec6-text h4,p{
+     padding-top: 25px;
+ }
+ #sec6 .col-4{
+background-color: white;
+text-align: center;
+ }
+ #sec6 b{
+     font-size: 20px;
+     color: #3B566E;
+     font-family: 'Poppins', sans-serif;
+ }
